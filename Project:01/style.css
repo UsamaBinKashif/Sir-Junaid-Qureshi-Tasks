@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation-Bar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.nav__ul {
+  display: flex;
+  gap: 15px;
+}
+.nav__ul > li {
+  color: #00bfa6;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+}
+.nav__ul > li:hover {
+  border-bottom: 3px solid #00bfa6;
+  transition: 0.3s;
+  padding-bottom: 10px;
+}
+.nav__btnGroup > button {
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.signinBTN {
+  padding: 10px 20px;
+  color: white;
+  background-color: #00bfa6;
+  border: 2px solid #00bfa6;
+}
+.signinBTN:hover {
+  background-color: white;
+  color: #00bfa6;
+  transition: 0.2s;
+}
+.signupBTN {
+  padding: 11px 20px;
+  border: 1px solid #00bfa6;
+  background-color: white;
+  color: #00bfa6;
+}
+.signupBTN:hover {
+  border: 1px solid white;
+  background-color: #00bfa6;
+  color: white;
+  transition: 0.2s;
+}
+/* Navigation-Bar-End */
+
+/* Main-Section */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+/* Main-Section-Left */
+.main__left {
+  width: 500px;
+}
+.main__heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-right: 100px;
+  text-transform: uppercase;
+}
+.main__heading--child {
+  color: #00bfa6;
+}
+.main__paragraph {
+  font-size: 1.0625rem;
+  color: gray;
+  margin-right: 100px;
+}
+
+.hireBTN {
+  margin-top: 10px;
+  padding: 10px 60px;
+  color: white;
+  background-color: #00bfa6;
+  border: 2px solid #00bfa6;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.hireBTN:hover {
+  background-color: white;
+  color: #00bfa6;
+  transition: 0.2s;
+}
+/* Main-Section-Left-End */
+
+/* Main-Section-Right */
+.main__right > img {
+  height: 300px;
+}
+/* Main-Section-Right-End */
+
+/* Mobile friendly */
+@media (max-width: 850px) {
+  .main {
+    margin: 0;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .nav__ul{
+    padding-bottom: 15px;
+  }
+  .main__right {
+    padding: 0px;
+    margin: 0;
+    margin-top: 100px;
+  }
+  .main__right>img{
+    height: 250px;
+    margin-left: -20%;
+  }
+}
+
+/* Mobile-friendly-End */
