@@ -1,7 +1,7 @@
 
-#Project 1: Build and Deploy a Portfolio Webpage using HTML & CSS
+# Project 1: Build and Deploy a Portfolio Webpage using HTML & CSS
 
-##Topics Covered in this project:
+## Topics Covered in this project:
 - HTML, CSS Basics
 - How to develop a project from scratch?
 - How to deploy your website for free using netlify?
@@ -12,3 +12,5 @@
 - Convert Figma Design to Code (Step by Step)
 - Add icons and illustrations
 - Free Deployment using Netlify
+
+## [Netlify-Live-Link](https://project-01-basicportfoliowebpage.netlify.app/)
