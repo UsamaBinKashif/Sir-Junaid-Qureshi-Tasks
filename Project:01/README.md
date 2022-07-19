@@ -13,4 +13,9 @@
 - Add icons and illustrations
 - Free Deployment using Netlify
 
-## [Netlify-Live-Link](https://project-01-basicportfoliowebpage.netlify.app/)
+### [Netlify-Live-Link](https://project-01-basicportfoliowebpage.netlify.app/)
+
+<br>
+
+### Screenshot
+![](https://github.com/UsamaBinKashif/Sir-Junaid-Qureshi-Tasks/blob/main/Project:01/assests/screencapture-project-01-basicportfoliowebpage-netlify-app-2022-07-19-20_12_46.png)
