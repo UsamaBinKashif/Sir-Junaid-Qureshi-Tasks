@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 /* Navigation-Bar */
 .navbar {
   display: flex;
@@ -63,18 +64,19 @@
 /* Main-Section */
 .main {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin-top: 150px;
+  height: 100vh;
+  flex-direction: row;
 }
 /* Main-Section-Left */
 .main__left {
-  width: 500px;
+  width: 400px;
 }
 .main__heading {
   font-size: 1.875rem;
   font-weight: 700;
-  margin-right: 100px;
+
   text-transform: uppercase;
 }
 .main__heading--child {
@@ -83,7 +85,6 @@
 .main__paragraph {
   font-size: 1.0625rem;
   color: gray;
-  margin-right: 100px;
 }
 
 .hireBTN {
@@ -110,29 +111,34 @@
 }
 /* Main-Section-Right-End */
 
-/* Mobile friendly */
 @media (max-width: 850px) {
   .main {
-    margin: 0;
     flex-direction: column;
-    margin-top: 80px;
-    margin-left: 100px;
   }
   .navbar {
     flex-direction: column;
   }
-  .nav__ul{
-    padding-bottom: 15px;
+}
+@media (max-width: 400px) {
+  .main {
+    overflow: hidden;
   }
-  .main__right {
-    padding: 0px;
-    margin: 0;
-    margin-top: 100px;
+  .main__left {
+    margin-left: 20px;
   }
-  .main__right>img{
-    height: 250px;
-    margin-left: -20%;
+  .main__right > img {
+    height: 280px;
   }
 }
 
-/* Mobile-friendly-End */
+@media (max-width: 380px) {
+  .main__left {
+    width: 360px;
+    margin-top: -18%;
+  }
+
+  .main__right > img {
+    height: 200px;
+    margin-top: -22%;
+  }
+}
